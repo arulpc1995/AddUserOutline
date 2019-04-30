@@ -10,5 +10,5 @@ Feature: The user fill the customer detail
       | email   | shdbjyagd@gmail.com |
       | address | jgdfja              |
       | phnum   |              124899 |
-      When The user click the submit button
+    When The user click the submit button
     Then The user check the correct User genrated ID formate
