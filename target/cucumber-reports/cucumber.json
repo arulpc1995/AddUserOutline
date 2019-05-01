@@ -1,0 +1,393 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 171177995790,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method1()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "the-user-check-with-an-scenario-outline-page;title-of-your-scenario-outline;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5157585578,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 97629833142,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user is in add triff paln page",
+            "match": {
+              "location": "ScenarioOutline.the_user_is_in_add_triff_paln_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2396697396,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user fill the valid detail \"500\",\"200\",\"400\",\"250\",\"350\",\"550\",\"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"500\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"400\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"250\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"350\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"550\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"100\"",
+                  "offset": 67
+                }
+              ],
+              "location": "ScenarioOutline.the_user_fill_the_valid_detail(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11296951583,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user click the submit button in add triff plan",
+            "match": {
+              "location": "ScenarioOutline.the_user_click_the_submit_button_in_add_triff_plan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 342341438,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the success message",
+            "match": {
+              "location": "ScenarioOutline.the_user_should_see_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regerrsion"
+          },
+          {
+            "name": "@user1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 45645305583,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method1()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "the-user-check-with-an-scenario-outline-page;title-of-your-scenario-outline;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2521378949,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12336465720,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user is in add triff paln page",
+            "match": {
+              "location": "ScenarioOutline.the_user_is_in_add_triff_paln_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1976932174,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user fill the valid detail \"400\",\"200\",\"700\",\"250\",\"850\",\"550\",\"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"400\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"700\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"250\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"850\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"550\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"100\"",
+                  "offset": 67
+                }
+              ],
+              "location": "ScenarioOutline.the_user_fill_the_valid_detail(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5522905325,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user click the submit button in add triff plan",
+            "match": {
+              "location": "ScenarioOutline.the_user_click_the_submit_button_in_add_triff_plan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124876556,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the success message",
+            "match": {
+              "location": "ScenarioOutline.the_user_should_see_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regerrsion"
+          },
+          {
+            "name": "@user1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 51975034610,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method1()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "the-user-check-with-an-scenario-outline-page;title-of-your-scenario-outline;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1960823981,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.method2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 61621877402,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user is in add triff paln page",
+            "match": {
+              "location": "ScenarioOutline.the_user_is_in_add_triff_paln_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1581274218,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user fill the valid detail \"900\",\"200\",\"300\",\"250\",\"550\",\"550\",\"600\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"900\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"300\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"250\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"550\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"550\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"600\"",
+                  "offset": 67
+                }
+              ],
+              "location": "ScenarioOutline.the_user_fill_the_valid_detail(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2719776398,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user click the submit button in add triff plan",
+            "match": {
+              "location": "ScenarioOutline.the_user_click_the_submit_button_in_add_triff_plan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 244477224,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the success message",
+            "match": {
+              "location": "ScenarioOutline.the_user_should_see_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regerrsion"
+          },
+          {
+            "name": "@user1"
+          }
+        ]
+      }
+    ],
+    "name": "The User check with an scenario outline page",
+    "description": "  I want to use this template for my feature file",
+    "id": "the-user-check-with-an-scenario-outline-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/ScenarioOutline.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regerrsion",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 8
+        }
+      }
+    ]
+  }
+]

@@ -6,7 +6,8 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/feature/ScenarioOutline.feature", monochrome = true, tags = "@smoke", glue = "org.validdetail", plugin = "html:target")
+@CucumberOptions(features = "src/test/resources/feature/ScenarioOutline.feature", dryRun = false, monochrome = true, tags = "@user1", glue = "org.validdetail", plugin = {
+		"html:target", "json:target/cucumber-reports/cucumber.json" })
 public class Testrunner {
 
 }
